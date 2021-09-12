@@ -91,3 +91,32 @@ h1{
   
 }
 
+button{
+  background-color: transparent;
+  border-color: #fff;
+  color: #F28705;
+  padding: 7px;
+  font-weight: bold;
+  font-size:12pt;
+  margin-top: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  outline:none;
+  transition: all .4s ease-out;
+
+
+}
+
+button:hover{
+  background-color: #29373A;
+  color: #fff;
+   
+}
+/*
+  .justify-center{
+      display:inline-flex;
+      justify-content: center;
+  }
+
+  */
+  
