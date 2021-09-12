@@ -80,3 +80,26 @@ function entrar() {
 
     }
   })
+
+  //gera um time de 2 seg para poder ser redirecionado para a página linkada abaixo.
+
+  if (usuario.value == userValid.user && senha.value == userValid.senha) {
+    setTimeout(() => {
+      window.location.href = "https://elegant-knuth-94245c.netlify.app/professor%20allocation/"
+    }, 2000)
+    let token = Ma.random().toString(16)
+
+  } else {
+
+    userLabel.setAttribute("style", "color: red")
+    usuario.setAttribute("style", "border-color: red")
+    senhaLabel.setAttribute("style", "color: red")
+    senha.setAttribute("style", "border-color: red")
+
+    msgError.setAttribute("style", "display: block")
+    msgError.innerHTML = "Usuario ou senha incorretos"
+    usuario.focus()
+
+  }
+
+}
