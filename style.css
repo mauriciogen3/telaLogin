@@ -13,3 +13,16 @@
   font-weight: bold;
   font-size: 1.35rem;
 }
+
+
+body{
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: url(/public/img/bg.jpg);
+}
