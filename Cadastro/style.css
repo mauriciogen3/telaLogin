@@ -120,3 +120,24 @@ button:hover{
 
   */
   
+  input{
+    height: 40px;
+    border-radius: 5px;
+    background-color: #02403a;
+    outline: none;
+    border: 1px solid rgb(35,35,35);
+    color: #fff;
+    font-size: 1.1rem;
+    padding: 0 10px;
+    margin-bottom: 3px;
+  
+  }
+
+  
+  .fa-eye{
+    position: absolute;
+    top: 28px;
+    right: 10px;
+    cursor: pointer;
+    color:#fff
+}
