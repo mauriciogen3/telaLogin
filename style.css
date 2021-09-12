@@ -43,3 +43,13 @@ img{
   margin-bottom: 25px;
 
 }
+
+
+a{
+  color: #fff;
+  text-decoration:none ;
+}
+
+a:hover{
+  text-decoration: underline;
+}
