@@ -141,3 +141,12 @@ button:hover{
     cursor: pointer;
     color:#fff
 }
+.logo{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.35rem;
+}
