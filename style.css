@@ -24,7 +24,7 @@ body{
   align-items: center;
   justify-content: center;
 
-  background: url(../professor-allocation-recodev/public/img/bg.jpg);
+  background: url(/img/bg.jpg);
 }
 
 body h1{
