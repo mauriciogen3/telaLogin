@@ -38,3 +38,19 @@ nome.addEventListener('keyup', () => {
 
   }
 })
+
+
+usuario.addEventListener('keyup', () => {
+  if(usuario.value.length <= 4){
+      labelUsuario.setAttribute('style','color: red')
+      labelUsuario.innerHTML = 'Email ou telefone *Insira no minimo 5 caracteres'  
+      usuario.setAttribute('style','border-color: red')
+      validUsuario = false
+  } else{
+      labelUsuario.setAttribute('style','color: green')
+      labelUsuario.innerHTML = 'Email ou telefone'
+      usuario.setAttribute('style','border-color: green')
+      validUsuario = true
+
+  }
+})
