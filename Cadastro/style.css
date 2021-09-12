@@ -79,3 +79,15 @@ h1{
   color: #fff;
 
 }
+#container-a{
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#container-b{
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
