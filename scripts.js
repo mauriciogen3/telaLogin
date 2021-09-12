@@ -35,3 +35,16 @@ button.addEventListener('click', (event) => {
   }
 
 })
+
+let btn = document.querySelector('.fa-eye')
+
+btn.addEventListener('click', () => {
+  let inputSenha = document.querySelector('#senha')
+
+  if (inputSenha.getAttribute('type') == 'senha') {
+    inputSenha.setAttribute('type', 'text')
+  } else {
+    inputSenha.setAttribute('type', 'senha')
+
+  }
+})
